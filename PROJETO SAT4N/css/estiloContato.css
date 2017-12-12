@@ -1,0 +1,127 @@
+
+body{	
+width:990px;
+font-family: 'MedievalSharp', sans-serif;
+margin:0 auto;
+background: url(../img/bloodwall.jpg)no-repeat center;
+background-size: cover;
+}
+body *{
+	margin:0px;
+}
+
+body header#topo{
+	background: url(../img/escrituras.jpg)no-repeat center;
+	background-size: cover;
+	width:990px;
+	height:302px;
+}
+
+body nav#menu{
+	background: black;
+	text-align: center;
+	padding: 10px;
+}
+
+body nav#menu ul li{
+	display: inline-block;
+	text-align: center;
+	margin: 0px 30px;
+
+}
+
+body nav#menu ul li a {
+  color:red;
+  text-decoration: none;
+  font-size: 24px;
+}
+body header#topo h1 a {
+ margin:20px;
+  display: inline-block;
+  width: 350px;
+  height: 124px;
+  text-indent: -9000px;
+}
+
+body nav#menu ul li a:hover{
+	text-decoration: underline;
+	border-color: red;
+	border: 1px;
+}
+
+body div#slide{
+	height:360px;
+	cursor:pointer;
+}
+
+body main#conteudo{
+	height: 450px;
+	background:black;
+	color:red;
+	
+}
+
+body main#conteudo .centralizar p{
+	
+	font-size:20px;
+	font-weight:bold;
+	
+}
+
+body main#conteudo .centralizar section{
+	display: inline-block;
+	text-align: center;
+	margin: 108px 55px;
+	cursor:pointer;
+
+}
+
+body footer#rodape{
+	background: url(../img/blackd.jpg)no-repeat center;
+	background-size: cover;
+	height: 190px;
+
+	
+}
+
+body footer#rodape p{
+	color: white;
+	font-weight: bold;
+	font-size:16px;
+	display:inline-block;
+	margin: 30px;
+		
+}
+
+body footer#rodape img{
+	width: 280px;
+	height: 90px;
+	margin-top: 70px;
+    margin-left: 440px;
+}
+
+
+body main#conteudo h2{
+	padding:20px 0 0 20px;
+	font-size:45px;
+	font-weight:bold;
+	
+}
+
+body main#conteudo p{
+	font-size:18px;
+	padding:0 0 0 20px;
+	text-align:justify;
+	width:900px;
+	
+}
+
+body main#conteudo div#formulario{
+	margin-top:50px;
+	width:400px;
+	margin-left:20px;
+}
+
+body main#conteudo div#formulario p{
+	width:400px;
+}
